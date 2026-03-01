@@ -13,7 +13,7 @@ $participants = $stmt->fetchAll();
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Christian Youth Talent Voting</h1>
+    <h1>Christian Youth Talent Show Voting Platform</h1>
     <div class="card-container">
         <?php foreach ($participants as $p): ?>
             <div class="card">
