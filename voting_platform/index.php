@@ -26,3 +26,5 @@ $participants = $stmt->fetchAll();
     </div>
 </body>
 </html>
+
+

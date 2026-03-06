@@ -20,3 +20,6 @@ try {
 } catch (PDOException $e) {
     throw new PDOException($e->getMessage(), (int)$e->getCode());
 }
+
+// Alternative connection method
+$pdo = new PDO('mysql:host=localhost;dbname=voting_platform;charset=utf8', 'root', '');
