@@ -2,7 +2,7 @@
 require_once 'config.php';
 
 // fetch participants from database
-$stmt = $pdo->query('SELECT id, name, talent, image_path FROM participants');
+$stmt = $pdo->query('SELECT id, name, talent, photo FROM participants');
 $participants = $stmt->fetchAll();
 ?>
 <!DOCTYPE html>
